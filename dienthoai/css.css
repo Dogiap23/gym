@@ -1,4 +1,12 @@
+    /*
+        hover: thay doi kieu dang khi di chuot
 
+        display-flex: giúp sắp xếp, bố cục các thành phần khối (block) một cách dễ dàng, linh hoạt hơn trước.
+        
+        Thuộc tính 'margin' khi sử dụng sẽ thêm khoảng không gian bên ngoài thành phần, 
+
+        Thuộc tính 'padding' khi sử dụng sẽ thêm khoảng không gian bên trong thành phần,
+     */ 
         * {
             margin: 0;
             padding: 0;
@@ -44,6 +52,7 @@
             padding: 10px 20px;
             border-bottom: 1px solid #ddd;
           }
+          
           
           .logo {
             font-size: 24px;
@@ -147,7 +156,7 @@
             transition: transform 0.2s;
         }
 
-        .category:hover {
+        .category:hover { 
             transform: translateY(-5px);
         }
 
@@ -265,8 +274,9 @@
             transition: transform 0.2s;
         }
 
-        .product:hover {
+      .product:hover { 
             transform: translateY(-5px);
+            
         }
 
         .product img {
